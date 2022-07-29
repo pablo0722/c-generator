@@ -1,0 +1,70 @@
+{
+    "separation_lines": 10,
+    "sections": [
+        {
+            "title": "HEADER",
+            "category": "Comment",
+            "content": [
+                {
+                    "value": "principio",
+                    "type": "Header"
+                }
+            ],
+            "subsections": []
+        },
+        {
+            "title": "PRE-INCLUDE DEFINES",
+            "category": "Code",
+            "content": [
+                {
+                    "value": "DEBUG 0",
+                    "type": "Define"
+                }
+            ],
+            "subsections": []
+        },
+        {
+            "title": "INCLUDES",
+            "category": "Code",
+            "content": [
+                {
+                    "value": "<stdio.h>",
+                    "type": "Include"
+                }
+            ],
+            "subsections": [
+                {
+                    "subtitle": "Implementation Headers",
+                    "subcontent": [
+                        {
+                            "value": "<stdio.h>",
+                            "type": "Include"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "POST-INCLUDE DEFINES",
+            "category": "Code",
+            "content": [
+                {
+                    "value": "RELEASE 1",
+                    "type": "Define"
+                }
+            ],
+            "subsections": []
+        },
+        {
+            "title": "FOOTER",
+            "category": "Comment",
+            "content": [
+                {
+                    "value": "fin",
+                    "type": "Footer"
+                }
+            ],
+            "subsections": []
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "c-generator",
+  "version": "1.0.0",
+  "description": "Program in TS to facilitate C code generation in high level",
+  "main": "index.js",
+  "scripts": {
+    "all": "npm run build; npm run start",
+    "build": "tsc",
+    "start": "node ./build/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:pablo0722/c-generator.git"
+  },
+  "keywords": [
+    "C",
+    "code generator",
+    "C high level",
+    "high level code"
+  ],
+  "author": "Pablo Rodrigo D'Angelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo0722/c-generator/issues"
+  },
+  "homepage": "https://github.com/pablo0722/c-generator#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.1"
+  }
+}
